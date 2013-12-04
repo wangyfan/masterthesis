@@ -1,0 +1,20 @@
+% 发表论文列表
+
+% 攻读学位期间发表论文列表用 tableofpublications 环境产生。需要
+% 在 bare_thesis.tex 的导言区用 \newcite{<name>}{<caption>} 声明不同类
+% 型的论文，具体见导言区说明。
+
+\begin{tableofpublications}
+  \bibliographyjrnl{pubs}
+  \nocitejrnl{paper1}
+  \nocitejrnl{paper4}
+
+  \bibliographyconf{pubs}
+  \nociteconf{paper2}
+  \nociteconf{paper3}
+\end{tableofpublications}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "bare_thesis"
+%%% End: 
