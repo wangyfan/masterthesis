@@ -662,12 +662,12 @@
     \xiaoer[1.5]
     \setlength{\extrarowheight}{0pt}
     \setlength{\arrayrulewidth}{0.5bp}
-    \begin{tabular}{@{}p{36bp}@{\bupt@title@sep}p{105mm}@{}}
+    \begin{tabular}{@{}p{36bp}@{\bupt@title@sep}p{125mm}@{}}
       \bupt@label@ctitle & %
-      \parbox[t]{105mm}{%
+      \parbox[t]{125mm}{%
         \centering%
         \renewcommand\titlebreak{\\\global\let\bupt@long@title\@empty}
-        \rule[-5bp]{105mm}{0.5bp}\\[-27bp]
+        \rule[-5bp]{125mm}{0.5bp}\\[-27bp]
         \bupt@meta@ctitle%
       }%
       \\%
